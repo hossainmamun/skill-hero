@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   html {
+      overflow-x: hidden;
+   }
+   body {
+      background-color: #023047;
+      /* background-color: #022e42; */
+      font-family: 'Poppins', sans-serif;
+   }
+}
+
+@layer components {
+   .font-family {
+      font-family: 'Poppins', sans-serif;
+   }
+
+   .link-font {
+      font-family: 'Roboto Mono', monospace;
+   }
+
+   .brand-font {
+      font-family: 'Patrick Hand', cursive;
+   }
+
+   .sh-text {
+      color: #fdffb6;
+   }
+
+   .sh-border {
+      border-color: #fdffb6;
+   }
+
+   .sh-bg {
+      background-color: #fdffb6;
+   }
+
+   .alert-bg{
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   }
+}
